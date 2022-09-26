@@ -1,5 +1,4 @@
-﻿//
-
+﻿// ВАриант 1
 Console.WriteLine("Введите X: ");
 int x = int.Parse(Console.ReadLine());
 
@@ -15,6 +14,6 @@ else if (x<0 && y>0){
 else if (x<0 && y<0){
     Console.WriteLine("3");
 }
-else if (x>0 && y<0){
+else {
     Console.WriteLine("4");
 }
